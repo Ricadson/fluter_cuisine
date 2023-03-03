@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "396655941568",
+    "project_id": "firetuto-c8a2c",
+    "storage_bucket": "firetuto-c8a2c.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:396655941568:android:83a9d7bd3be28f0dddda25",
+        "android_client_info": {
+          "package_name": "com.example.fluter_firetest"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "396655941568-egg6bqquso967gf79bc067pbbmjtoe2o.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBevv_dpxg0Gq2t4WqtrkibShhdEfp1PZM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "396655941568-egg6bqquso967gf79bc067pbbmjtoe2o.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

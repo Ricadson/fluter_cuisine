@@ -1,0 +1,69 @@
+import 'package:base_app/slidescreen/intro.dart';
+import 'package:flutter/cupertino.dart';
+import 'package:flutter_spinkit/flutter_spinkit.dart';
+import 'package:flutter/material.dart';
+
+void main() {
+  runApp(const MyWidget());
+}
+
+class MyWidget extends StatefulWidget {
+  const MyWidget({super.key});
+
+  @override
+  State<MyWidget> createState() => _MyWidgetState();
+}
+
+class _MyWidgetState extends State<MyWidget> {
+  @override
+  Widget build(BuildContext context) {
+    return MaterialApp(
+      debugShowCheckedModeBanner: false,
+      home: Home(),
+    );
+  }
+}
+
+class Home extends StatefulWidget {
+  const Home({super.key});
+
+  @override
+  State<Home> createState() => _HomeState();
+}
+
+class _HomeState extends State<Home> {
+  @override
+  void initState() {
+    super.initState();
+
+    Future.delayed(Duration(seconds: 3)).then((value) {
+      Navigator.of(context)
+          .pushReplacement(CupertinoPageRoute(builder: (ctx) => Homepage()));
+    });
+  }
+
+  @override
+  Widget build(BuildContext context) {
+    return Scaffold(
+      body: SizedBox(
+        width: double.infinity,
+        child: Column(
+          mainAxisAlignment: MainAxisAlignment.center,
+          children: [
+            CircleAvatar(
+              backgroundImage: AssetImage('asset/atelier_cuisine.png'),
+              radius: 100,
+            ),
+            SizedBox(
+              height: 50,
+            ),
+            SpinKitSpinningLines(
+              color: Colors.blue,
+              size: 50.0,
+            )
+          ],
+        ),
+      ),
+    );
+  }
+}
