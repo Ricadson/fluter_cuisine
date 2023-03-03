@@ -29,7 +29,7 @@ class _AcceuilState extends State<Acceuil> {
               Container(
                 alignment: Alignment.centerLeft,
                 child: Text(
-                  'Art Culinaire\n Cuisiner avec joie',
+                  'Art Culinaire\n Cuisiner avec joie 22',
                   style: GoogleFonts.lobster(fontSize: 32, color: Colors.blue),
                 ),
               ),
