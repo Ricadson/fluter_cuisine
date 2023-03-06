@@ -19,7 +19,7 @@ class _Intropage3State extends State<Intropage3> {
               height: 30,
             ),
             Text(
-              ' La pâtisserie et l\'amour, c\'est pareil - une question de fraîcheur et que tous les ingrédients, même les plus amers, tournent au délice.',
+              ' La pâtisserie et l\'amour,       c\'est pareil - une question de fraîcheur et que tous les ingrédients, même les plus amers, tournent au délice.',
               style: GoogleFonts.lobster(fontSize: 16, color: Colors.grey),
             ),
           ],
