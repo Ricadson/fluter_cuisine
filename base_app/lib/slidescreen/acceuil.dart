@@ -1,7 +1,6 @@
 // ignore_for_file: prefer_const_constructors, non_constant_identifier_names, prefer_const_literals_to_create_immutables, prefer_const_constructors_in_immutables
 
 import 'package:base_app/principal%20screen/cuisine.dart';
-import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:google_fonts/google_fonts.dart';
 
@@ -9,6 +8,7 @@ class Acceuil extends StatefulWidget {
   Acceuil({Key? key}) : super(key: key);
 
   @override
+  // ignore: library_private_types_in_public_api
   _AcceuilState createState() => _AcceuilState();
 }
 
@@ -29,7 +29,7 @@ class _AcceuilState extends State<Acceuil> {
               Container(
                 alignment: Alignment.centerLeft,
                 child: Text(
-                  'Art Culinaire\n Cuisiner avec joie 22',
+                  'Art Culinaire\n Cuisiner avec joie',
                   style: GoogleFonts.lobster(fontSize: 32, color: Colors.blue),
                 ),
               ),
