@@ -1,4 +1,4 @@
-import 'package:base_app/slidescreen/acceuil.dart';
+import 'package:base_app/recettes_cuisine/recettes_cuisine.dart';
 import 'package:flutter/material.dart';
 
 class Cuisine extends StatefulWidget {
@@ -74,7 +74,7 @@ class _CuisineState extends State<Cuisine> {
                     if (index == 0) {
                       Navigator.push(context,
                           MaterialPageRoute(builder: (context) {
-                        return Acceuil();
+                        return const Recette_Francaise();
                       }));
                     }
                   },
